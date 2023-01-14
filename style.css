@@ -5,12 +5,12 @@ h1 {
 }
 
 * {
-
-    margin: 4px;
+    margin: 4px;   
 }
 
+
 .header {
-    background-color: #d3f3f1;
+    background-color: #bde0fe;
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
@@ -18,7 +18,7 @@ h1 {
 }
 
 .sites-description {
-    background-color: #e9b7ce;
+    background-color: #ffc8dd;
     border-radius: 20px;
 }
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 .footer {
-    background-color: #d3f3f1;
+    background-color: #bde0fe;
     display: flex;
     justify-content: space-evenly;
     border-radius: 20px;
@@ -58,8 +58,14 @@ p {
     justify-content: center;
     text-align: center;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
 }
+
+h2 {
+    font-weight: 'bold';
+}
+
 
 .item {
     position: relative;
@@ -82,5 +88,5 @@ p {
 
 .item:hover img {
     opacity: 0.3;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
